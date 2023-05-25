@@ -15,7 +15,18 @@
    .bpw-from-user .bpw-chat-bubble:last-of-type {
      border-bottom-right-radius: 0px;
    }
-   
+   .bpw-layout {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 50%;
+  border-left: 1px solid #ccc;
+  -webkit-box-orient: vertical;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
    .bpw-from-bot .bpw-chat-bubble:last-of-type {
      border-bottom-left-radius: 0px;
    }
